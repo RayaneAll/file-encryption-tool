@@ -1,0 +1,87 @@
+###############################
+# Python
+###############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+###############################
+# Virtual environments
+###############################
+.venv/
+venv/
+env/
+.env/
+.python-version
+
+###############################
+# Packaging / build
+###############################
+build/
+dist/
+sdist/
+wheelhouse/
+*.egg-info/
+.eggs/
+*.egg
+
+###############################
+# Test & coverage
+###############################
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+junit.xml
+
+###############################
+# Type checking / linters / tools
+###############################
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.pyre/
+.pylint.d/
+
+###############################
+# Editors & IDEs
+###############################
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-* 
+
+###############################
+# OS junk
+###############################
+.DS_Store
+Thumbs.db
+Icon\r
+
+###############################
+# Logs & temp files
+###############################
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+###############################
+# Project-specific artifacts
+###############################
+# Encrypted outputs produced by this tool
+*.enc
+
+# Local manual test artifacts
+secret.txt
+secret_decrypted.txt
+bin.dat
+bin_out.dat
+should_fail.txt
+wrong.err
