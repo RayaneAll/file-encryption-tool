@@ -3,8 +3,8 @@
 Nom: file_crypto.py
 Description: Script CLI simple pour chiffrer et déchiffrer des fichiers à l'aide
 de mots de passe et de la bibliothèque cryptography (Fernet + PBKDF2).
-Auteur: Cursor (assisté par IA)
-Date: 2025-09-29
+Auteur: Rayane Allaoui
+Date: 2025
 
 AVERTISSEMENT: Projet éducatif uniquement. Ne pas utiliser en production pour
 des données sensibles. Vérifiez toujours la sécurité selon votre contexte.
